@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-class baseClass {
+class baseClass final{
     public:
-        virtual void perkenalan()final{
+        virtual void perkenalan(){
             cout << "hallo saya function dari base class";
         }
 };
