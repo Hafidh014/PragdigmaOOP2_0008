@@ -4,7 +4,7 @@ using namespace std;
 class seseorang {
     public:
     virtual void pesan() = 0;
-}
+};
 
 class joko : public seseorang{
     public :
@@ -19,3 +19,15 @@ class lia : public seseorang{
             cout << "pesan dari lia" << endl;
         }
 };
+
+int main(){
+    seseorang* obyek;
+    joko a;
+    lia b;
+
+    obyek = &a;
+    obyek = &b;
+    obyek ->pesan();
+
+    return 0;
+}
