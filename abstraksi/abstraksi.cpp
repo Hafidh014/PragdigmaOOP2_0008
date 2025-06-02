@@ -17,3 +17,11 @@ class AbstrakiKlas {
 }
 };
 
+int main(){
+    Abstraksiklas ak;
+    ak.setXY ("yogyakarta", "kampus");
+    Ak.display();
+
+    return 0;
+
+}
